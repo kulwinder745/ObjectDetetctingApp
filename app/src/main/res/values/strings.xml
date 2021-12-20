@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ObjectDetetctionApp</string>
+    <string name="select_image">Select Image</string>
+    <string name="take_from_camera_title">Take photo</string>
+    <string name="pick_from_gallery_title">Pick from Gallery</string>
+    <string name="cancel">Cancel</string>
+
+</resources>

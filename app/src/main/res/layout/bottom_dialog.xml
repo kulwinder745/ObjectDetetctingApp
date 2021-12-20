@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_16sdp"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:background="@drawable/bg_white_round"
+            android:orientation="vertical">
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/take_from_camera_title"
+                style="@style/TextStyle"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:padding="@dimen/_12sdp"
+                android:text="@string/take_from_camera_title"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@color/light_grey" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/pick_from_gallery_title"
+                style="@style/TextStyle"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:padding="@dimen/_12sdp"
+                android:text="@string/pick_from_gallery_title"
+                android:textColor="@color/colorPrimaryDark" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:background="@drawable/bg_white_round"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_cancel"
+                style="@style/TextStyle"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:padding="@dimen/_12sdp"
+                android:text="@string/cancel"
+
+                android:textColor="@color/colorPrimary" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"/>
+
+    </LinearLayout>
+
+</layout>
